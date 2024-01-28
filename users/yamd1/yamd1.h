@@ -16,6 +16,7 @@
 #define HRC_R_CTL_SFT OSM(MOD_RCTL | MOD_RSFT)
 #define HRC_L_CTL_ALT OSM(MOD_LCTL | MOD_LALT)
 #define HRC_R_CTL_ALT OSM(MOD_RCTL | MOD_RALT)
+#define HRC_ENTER KC_ENT
 
 // #endif
 
@@ -45,6 +46,7 @@ enum userspace_combo_events {
     COMBO_HRC_L_CTL_ALT_1,
     COMBO_HRC_R_CTL_ALT_0,
     COMBO_HRC_R_CTL_ALT_1,
+    COMBO_HRC_ENT,
     // #endif
 
     COMBO_SAFE_RANGE,
