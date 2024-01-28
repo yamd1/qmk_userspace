@@ -5,10 +5,10 @@ This is a template repository which allows for an external set of QMK keymaps to
 
 ```
 # Target: elite pi
-qmk compile -c -kb crkbd -km yamd1 -e CONVERT_TO=elite_pi
+qmk userspace-compile -c -kb crkbd -km yamd1 -e CONVERT_TO=elite_pi
 
 # Target: Pro micro
-qmk compile -c -kb crkbd -km yamd1
+qmk userspace-compile -c -kb crkbd -km yamd1
 ```
 
 
