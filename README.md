@@ -1,6 +1,16 @@
 # QMK Userspace
-
 This is a template repository which allows for an external set of QMK keymaps to be defined and compiled. This is useful for users who want to maintain their own keymaps without having to fork the main QMK repository.
+
+## Usage
+
+```
+# Target: elite pi
+qmk compile -c -kb crkbd -km yamd1 -e CONVERT_TO=elite_pi
+
+# Target: Pro micro
+qmk compile -c -kb crkbd -km yamd1
+```
+
 
 ## Howto configure your build targets
 
